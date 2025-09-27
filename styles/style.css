@@ -15,7 +15,7 @@
 
 }
 
-.header_menu_item-active {
+.menu_item-active {
 
 }
 
@@ -23,11 +23,27 @@
 
 }
 
+.menu_link {
+
+}
+
 .header_logo {
 
 }
 
+.header_logo-image {
+
+}
+
 .address {
+
+}
+
+.address_link {
+
+}
+
+.address_text {
 
 }
 
@@ -103,6 +119,14 @@
 
 }
 
+.about_logo-background {
+
+}
+
+.about_logo-image {
+
+}
+
 .about_description {
 
 }
@@ -123,6 +147,14 @@
 
 }
 
+.footer_menu_list {
+
+}
+
+.footer_menu_item {
+
+}
+
 .networks {
 
 }
@@ -132,5 +164,13 @@
 }
 
 .networks_item {
-  
+
+}
+
+.networks_item-link {
+
+}
+
+.networks_item-image {
+
 }
