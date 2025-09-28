@@ -1,7 +1,4 @@
 /* место для вашего кода */
-.page {
-
-}
 
 .header {
   display: grid;
@@ -59,45 +56,101 @@
   text-decoration-thickness: 1px;
 }
 
-.content {
-
-}
-
 .cover {
   display: grid;
-  width: 100%;
-  height: 757px;
-  padding: 165px 50px 50px;
+  min-height: 757px;
   margin-bottom: 180px;
+  position: relative;
   background-image: url('../images/cover.jpg');
-}
-
-.cover_title {
-
-}
-
-.cover_title_span-left {
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
 
 }
 
-.cover_title_span-center {
-
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
-.cover_title_span-right {
-
+.cover__title {
+  z-index: 1;
+  text-transform: uppercase;
 }
 
-.cover_description {
-
+.aligned-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 165px 50px 106px;
+  min-height: 385px;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 114.99999999999999%;
+  color: #FFFFFF;
 }
 
-.cover_description_text {
-
+.letter-spacing-extended {
+  letter-spacing: 30px;
 }
 
-.cover_description_button {
+.no-letter-spacing {
+  letter-spacing: 0;
+}
 
+.aligned-text_left {
+  display: block;
+  text-align: left;
+}
+
+.aligned-text_center {
+  display: block;
+  text-align: center;
+}
+
+.aligned-text_right {
+  display: block;
+  text-align: right;
+}
+
+.cover__description {
+  margin: 0 50px 50px;
+  width: 1000px;
+  height: 51px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cover__description-text {
+  display: inline-block;
+  width: 637px;
+  height: 28px;
+  word-spacing: 18.53px;
+  align-self: center;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  z-index: 1;
+}
+
+.bet-button {
+  width: 256px;
+  height: 100%;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 22px;
+  text-transform: uppercase;
+  line-height: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: #FFFFFF;
+  border-width: 1px;
+  border-style: solid; 
+  z-index: 1;
 }
 
 .lots {
