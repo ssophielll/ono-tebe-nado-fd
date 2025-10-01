@@ -49,6 +49,7 @@
   flex-direction: column;
   align-items: flex-start;
   font-style: normal;
+  line-height: 24.3px;
 }
 
 .address_header__address {
@@ -323,7 +324,6 @@
   max-width: 260.7px;
   justify-self: start;
   margin-left: 50px;
-  line-height: 24.3px;
 }
 
 .footer__menu {
